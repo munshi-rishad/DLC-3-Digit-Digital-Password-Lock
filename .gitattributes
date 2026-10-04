@@ -1,0 +1,6 @@
+# Multisim circuit files and media are binary
+*.ms14 binary
+*.pdf  binary
+*.png  binary
+*.jpg  binary
+*.webp binary

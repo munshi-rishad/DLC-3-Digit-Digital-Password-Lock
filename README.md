@@ -11,42 +11,6 @@ A 3-digit digital password lock designed with basic digital logic components onl
 - **ENTER** button checks the password and **RESET** button closes the door.
 - Door status: Green LED = open, Red LED = closed.
 
-## Components Used
-
-| Component | Purpose |
-|-----------|---------|
-| D Flip-Flop | Stores the password bits |
-| 2×1 Multiplexer (MUX) | Selects between password-setting mode and user-input mode |
-| XNOR Gate | Bit-by-bit comparison of stored and entered password |
-| AND Gate | Combines all comparator outputs (all bits must match) |
-| NOT Gate | Inverts the LOAD signal |
-| BCD validation logic | Blocks inputs from 10 to 15 |
-| BCD to 7-segment decoder (CD4511 / 7447) | Digit display (see build notes) |
-| LEDs (Green / Red) | Door open / closed indication |
-
-## Folder Structure
-
-```
-DLC-Digital-Password-Lock/
-├── Multisim_Files/          # Multisim circuits, in development order
-│   ├── 01_1-bit_Password_Lock.ms14
-│   ├── 02_4-bit_Password_Lock.ms14
-│   ├── 03_BCD_0-9_Password_Basic.ms14
-│   ├── 04_BCD_0-9_Password_Validated.ms14
-│   ├── 05_3-digit_Password_Lock_Simulation.ms14
-│   └── 06_3-digit_Password_Lock_Hardware.ms14
-├── Project_Documents/
-│   └── DLC_Project_Report_Draft.pdf
-├── Images/                  # Component diagrams used in the report
-├── Screenshots/             # Circuit diagrams and hardware photo
-├── Archive/                 # Old test files and Multisim auto-backups
-│   ├── Test_Files/
-│   └── Multisim_Auto_Backups/
-├── .gitattributes
-├── .gitignore
-└── README.md
-```
-
 ## How to Run
 
 1. Install **NI Multisim** (files are in `.ms14` format, i.e. Multisim 14).

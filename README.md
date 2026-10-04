@@ -54,16 +54,6 @@ DLC-Digital-Password-Lock/
 3. Open `Multisim_Files/06_3-digit_Password_Lock_Hardware.ms14` for the hardware-oriented design.
 4. Run the simulation and try the test cases below.
 
-## Test Cases (from the report)
-
-| LOAD | Input | ENTER | RESET | Result |
-|------|-------|-------|-------|--------|
-| 1 | 8 (1000) | – | – | Stored as password, door stays closed |
-| 1 | 10 (1010) | – | – | Rejected, *Invalid* indicator on, door closed |
-| 0 | 3 (not equal to stored 8) | pressed | – | Door closed (Red LED) |
-| 0 | 8 (equal to stored 8) | pressed | – | Door open (Green LED) |
-| 0 | 8 (equal to stored 8) | pressed | pressed | Door closed (Red LED) |
-
 ## Project Screenshots
 
 ### 1. Circuit Diagram: wrong password (door closed)
@@ -82,15 +72,7 @@ LOAD = 0, input 8 matches the stored password 8 and ENTER is pressed, so the Gre
 
 ![Hardware breadboard setup](Screenshots/03_Hardware_Breadboard_Setup.jpg)
 
-## Documents
-
-- [Project Report (draft)](Project_Documents/DLC_Project_Report_Draft.pdf): abstract, theory, methodology, simulation screenshots, discussion, conclusion.
-
 ## Future Improvements
 
 - Add more digits to the password.
 - Integrate a microcontroller for a more flexible design.
-
-## Author
-
-**Your Name**: add your name, ID and course here.

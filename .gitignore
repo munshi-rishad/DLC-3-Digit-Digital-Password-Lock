@@ -3,6 +3,8 @@
 Thumbs.db
 desktop.ini
 
-# Temporary files
+# Temporary and backup files
 *.tmp
 *~
+*_backup.ms14
+*(Security copy)*

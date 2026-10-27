@@ -6,6 +6,8 @@ Digits above 9 are blocked by a BCD validation circuit.
 
 Digital Logic and Circuits (DLC) project, EEE course, AIUB.
 
+**Semester:** Fall 2025-2026 (Digital Logic and Circuits)
+
 ## Features
 
 - Each digit is entered as 4-bit **BCD** with switches (3 digits = 12 bits).

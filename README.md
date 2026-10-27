@@ -6,7 +6,7 @@ Digits above 9 are blocked by a BCD validation circuit.
 
 Digital Logic and Circuits (DLC) project, EEE course, AIUB.
 
-**Semester:** Fall 2025-2026 (Digital Logic and Circuits)
+**Semester:** Fall 2025-2026
 
 ## Features
 
